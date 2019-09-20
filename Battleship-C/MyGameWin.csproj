@@ -151,7 +151,7 @@
     <Content Include="Resources\sounds\hit.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\sounds\horrordrone.mp3">
+    <Content Include="Resources\sounds\horrordrone.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\sounds\lose.wav">
