@@ -97,9 +97,9 @@ static class HighScoreController
     // <remarks>
     // The format is
     // # of scores
-    // NNNSSS
+    // NNNNNNNNSSS
     // 
-    // Where NNN is the name and SSS is the score
+    // Where NNNNNNNN is the name and SSS is the score
     // </remarks>
     private static void SaveScores()
     {
