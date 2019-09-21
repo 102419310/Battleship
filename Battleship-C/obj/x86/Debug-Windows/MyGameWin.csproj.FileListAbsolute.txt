@@ -143,7 +143,6 @@ Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\images\SwinGameA
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\images\SwinGameAni.png
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\error.wav
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\hit.wav
-Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\horrordrone.mp3
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\lose.wav
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\sink.wav
 Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\SwinGameStart.ogg
@@ -271,3 +270,4 @@ C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGame
 C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGame.exe
 C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGame.pdb
 C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Resources\sounds\horrordrone.wav
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\sounds\horrordrone.wav
