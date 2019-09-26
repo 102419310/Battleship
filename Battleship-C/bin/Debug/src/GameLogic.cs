@@ -5,7 +5,7 @@ public static class GameLogic
 {
     public static void Main()
     {
-        // Opens a new Graphics Window:
+        // Opens a new Graphics hhhhhh Window:
         SwinGame.OpenGraphicsWindow("Battle Ships", 800, 600);
 
         // Load Resources:

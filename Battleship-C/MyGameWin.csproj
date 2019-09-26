@@ -38,8 +38,12 @@
     <PrepareForRunDependsOn>$(PrepareForRunDependsOn);CopyLibsToOut</PrepareForRunDependsOn>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Resources\animations\splash.txt" />
-    <Content Include="Resources\animations\startup.txt" />
+    <Content Include="Resources\animations\splash.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\animations\startup.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\bundles\FileDialog.txt" />
     <Content Include="Resources\bundles\splash.txt" />
     <Content Include="Resources\highscores.txt">
