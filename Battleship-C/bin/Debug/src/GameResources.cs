@@ -9,7 +9,7 @@ public static class GameResources
         NewFont("ArialLarge", "arial.ttf", 80);
         NewFont("Courier", "cour.ttf", 14);
         NewFont("CourierSmall", "cour.ttf", 8);
-        NewFont("Menu", "ffaccess.ttf", 8);
+        NewFont("Menu", "ffaccess.ttf", 28);
     }
 
     private static void LoadImages()
@@ -118,6 +118,7 @@ public static class GameResources
 
     public static void LoadResources()
     {
+
         int width, height;
 
         width = SwinGame.ScreenWidth();
@@ -129,23 +130,23 @@ public static class GameResources
 
         ShowMessage("Loading fonts...", 0);
         LoadFonts();
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
 
         ShowMessage("Loading images...", 1);
         LoadImages();
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
 
         ShowMessage("Loading sounds...", 2);
         LoadSounds();
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
 
         ShowMessage("Loading music...", 3);
         LoadMusic();
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
 
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
         ShowMessage("Game loaded...", 5);
-        SwinGame.Delay(100);
+        //SwinGame.Delay(100);
         EndLoadingScreen(width, height);
     }
 
