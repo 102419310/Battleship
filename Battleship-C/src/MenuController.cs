@@ -189,6 +189,14 @@ static class MenuController
     // </remarks>
     private static void DrawButtons(int menu, int level, int xOffset)
     {
+        string FontName = "Menu";
+        if (menu == 0 || menu == 2)
+        {
+            FontName = "Menu0";
+        } else if (menu == 1)
+        {
+            FontName = "Menu1";
+        }
         int btnTop;
         Rectangle toDraw = default(Rectangle);
 
@@ -205,7 +213,7 @@ static class MenuController
             toDraw.Y = btnTop + TEXT_OFFSET;
             toDraw.Width = BUTTON_WIDTH;
             toDraw.Height = BUTTON_HEIGHT;
-            SwinGame.DrawText(_menuStructure[menu][i], MENU_COLOR, Color.Transparent, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, toDraw);
+            SwinGame.DrawText(_menuStructure[menu][i], MENU_COLOR, Color.Transparent, GameResources.GameFont(FontName), FontAlignment.AlignCenter, toDraw);
             if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset))
                 SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
         }
