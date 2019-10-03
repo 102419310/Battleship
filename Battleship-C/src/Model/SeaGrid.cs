@@ -204,7 +204,7 @@ public class SeaGrid : ISeaGrid
                 _GameTiles[row,col].Shot = true;
                 _ShipsKilled += 1;
 
-                return new AttackResult(ResultOfAttack.Destroyed, _GameTiles[row,col].Ship, "destroyed the enemy's", row, col);
+                return new AttackResult(ResultOfAttack.Destroyed, _GameTiles[row,col].Ship, "destroyed the ", row, col);// fixed the display error showing enemy destroyed it's own ship
             }
 
             // else hit but not destroyed
