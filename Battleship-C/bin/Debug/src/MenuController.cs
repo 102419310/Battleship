@@ -33,11 +33,11 @@ static class MenuController
     // </remarks>
     private readonly static string[][] _menuStructure = new[] { new string[] { "PLAY", "SETUP", "SCORES", "QUIT" }, new string[] { "RETURN", "SURRENDER", "QUIT" }, new string[] { "EASY", "MEDIUM", "HARD" } };
 
-    private const int MENU_TOP = 575;
-    private const int MENU_LEFT = 30;
-    private const int MENU_GAP = 0;
-    private const int BUTTON_WIDTH = 75;
-    private const int BUTTON_HEIGHT = 15;
+    private const int MENU_TOP = 540;
+    private const int MENU_LEFT = 10;
+    private const int MENU_GAP = 30;
+    private const int BUTTON_WIDTH = 175;
+    private const int BUTTON_HEIGHT = 50;
     private const int BUTTON_SEP = BUTTON_WIDTH + MENU_GAP;
     private const int TEXT_OFFSET = 0;
 
@@ -107,8 +107,11 @@ static class MenuController
             GameController.EndCurrentState();
             return true;
         }
-
-        if (SwinGame.MouseClicked(MouseButton.LeftButton))
+        if (SwinGame.KeyTyped(KeyCode.MKey))
+            SwinGame.PauseMusic();
+        if (SwinGame.KeyTyped(KeyCode.UKey))
+            SwinGame.ResumeMusic();
+            if (SwinGame.MouseClicked(MouseButton.LeftButton))
         {
             int i;
             var loopTo = _menuStructure[menu].Length - 1;
@@ -189,6 +192,14 @@ static class MenuController
     // </remarks>
     private static void DrawButtons(int menu, int level, int xOffset)
     {
+        string FontName = "Menu";
+        if (menu == 0 || menu == 2)
+        {
+            FontName = "Menu0";
+        } else if (menu == 1)
+        {
+            FontName = "Menu1";
+        }
         int btnTop;
         Rectangle toDraw = default(Rectangle);
 
@@ -205,8 +216,7 @@ static class MenuController
             toDraw.Y = btnTop + TEXT_OFFSET;
             toDraw.Width = BUTTON_WIDTH;
             toDraw.Height = BUTTON_HEIGHT;
-            SwinGame.DrawText(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, toDraw);
-
+            SwinGame.DrawText(_menuStructure[menu][i], MENU_COLOR, Color.Transparent, GameResources.GameFont(FontName), FontAlignment.AlignCenter, toDraw);
             if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset))
                 SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
         }

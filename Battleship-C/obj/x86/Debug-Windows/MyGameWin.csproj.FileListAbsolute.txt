@@ -347,11 +347,23 @@ C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\B
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\MyGame.exe
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\MyGame.pdb
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\SwinGame.dll
-C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGameWin.csprojAssemblyReference.cache
-C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGameWin.csproj.CopyComplete
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGame.exe
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGame.pdb
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Resources\images\splash.png
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Resources\animations\startup.txt
 C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Resources\animations\splash.txt
+C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Resources\SwinGame.ico
+C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Icon.png
+C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\bin\Debug\Icon.ico
+C:\Users\aiden\OneDrive - Swinburne University\Documents\Development Project 1\Battleship-master\Battleship\Battleship-C\obj\x86\Debug-Windows\MyGameWin.csprojAssemblyReference.cache
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\animations\splash.txt
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\animations\startup.txt
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Resources\SwinGame.ico
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Icon.png
+Z:\Documents\GitHub\Battleship\Battleship-C\bin\Debug\Icon.ico
+C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Resources\animations\splash.txt
+C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Resources\animations\startup.txt
+C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Resources\SwinGame.ico
+C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Icon.png
+C:\Users\Tianyi Sun\Desktop\Battleship\Battleship-C\bin\Debug\Icon.ico

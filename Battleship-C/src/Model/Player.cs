@@ -121,6 +121,15 @@ public class Player : IEnumerable
         }
     }
 
+    public int Remaining
+    {   get
+        {
+            return ((Enum.GetValues(typeof(ShipName)).Length - 1) -(_playerGrid.ShipsKilled));
+        }
+        
+    }
+    
+
     // <summary>
     // Returns the Player's ship with the given name.
     // </summary>
